@@ -1,0 +1,51 @@
+body {
+	font-family: "Helvetica";
+	background-color: lightgray;
+}
+
+h3 {
+	background-color: white;
+	color: black;
+}
+
+p {
+	background-color: white;
+	color: gray;	
+}
+
+div {
+	background-color: gray;
+	width: 300px;
+	height: 250px;
+
+
+	/* Play with the properties below! */
+
+	/* border */
+
+	border-style: dashed;
+	/*border-style: solid;*/
+	border-width: 5px;
+	border-color: black;	
+
+
+	/* padding */
+	
+	padding: 30px 150px 0px 50px; 
+	/*padding: 50px 20px;*/
+	/*padding: 30px;*/
+	/*padding-top: 30px*/
+	/*padding-right: 30px*/
+	/*padding-bottom: 30px*/
+	/*padding-left: 30px*/
+
+
+	/* margin */
+
+	margin: 100px 50px;
+	/*margin: 100px;*/
+	/*margin-top: 100px*/
+	/*margin-right: 100px*/
+	/*margin-bottom: 100px*/
+	/*margin-left: 100px*/
+}

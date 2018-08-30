@@ -1,0 +1,48 @@
+/*This is how to comment in CSS.*/
+
+/*
+selector {
+	property: value;
+	property: value;
+	property: value;
+}
+*/
+
+body {
+	background-color: pink;
+}
+
+div {
+	background-color: white;
+	width: 500px;
+	height: 250px;
+	text-align: center;
+}
+
+h1 {
+	color: purple;
+	font-family: "Helvetica";
+}
+
+p {
+	color: #999999;
+	font-family: "Courier New";
+}
+
+span {
+	color: rgb(255, 0, 150);
+	/*font-size: 24px;*/
+	font-weight: bold;
+	font-style: italic;
+}
+
+a {
+	color: rgb(0,0,150);
+	font-family: "Helvetica";	
+}
+
+a:hover {
+	color: rgb(0,0,255);
+	font-family: "Helvetica";	
+	font-weight: bold;
+}

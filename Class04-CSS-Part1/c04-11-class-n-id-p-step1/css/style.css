@@ -1,0 +1,17 @@
+body {
+	font-family: "Helvetica", "Arial";
+}
+
+h1 {
+	color: darkblue;
+}
+
+p {
+	color: gray;
+	font-size: 18px;
+}
+
+.title {
+	color: purple;
+	font-size: 30px;
+}

@@ -1,0 +1,48 @@
+body {
+	font-family: "Helvetica", "Arial";
+}
+
+h1 {
+	color: darkblue;
+}
+
+p {
+	color: gray;
+	font-size: 18px;
+}
+
+div {
+	background-color: lightgray;
+	width: 300px;
+	height: 150px;
+}
+
+.title {
+	font-size: 24px;
+	color: gray;
+}
+
+.content {
+	font-family: "Courier New";
+	font-style: italic;
+}
+
+.class-box {
+	background-color: lightblue;	
+}
+
+.id-box {
+	background-color: lightgreen;	
+}
+
+#very-specific-title {
+	color: rgb(255, 0, 150);
+	font-size: 50px;
+}
+
+#very-special-box {
+	background-color: yellow;
+	width: 500px;
+	height: 300px;
+}
+

@@ -1,0 +1,29 @@
+body {
+	font-family: "Helvetica";
+	background-color: lightgray;
+}
+
+h3 {
+	background-color: white;
+	color: black;
+}
+
+p {
+	background-color: white;
+	color: gray;	
+}
+
+div {
+	background-color: gray;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	margin: 10px;
+
+	float: left;
+}
+
+
+.float-clear-div {
+	clear: both;
+}

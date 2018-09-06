@@ -1,0 +1,42 @@
+body {
+	font-family: "Helvetica", "Arial";
+}
+
+h1 {
+	color: darkblue;
+}
+
+h3 {
+	color: purple;
+}
+
+p {
+	color: gray;
+	font-size: 18px;
+}
+
+
+/* normal box */
+div {
+	background-color: lightgray;
+}
+
+
+/* grouped! */
+.green-box, .yellow-box, .blue-box {
+	width: 300px;
+	height: 150px;
+}
+
+
+.green-box {
+	background-color: lightgreen;	
+}
+
+.yellow-box {
+	background-color: lightyellow;
+}
+
+.blue-box {
+	background-color: lightblue;
+}

@@ -1,0 +1,29 @@
+body {
+	font-family: "Helvetica";
+	background-color: lightgray;
+}
+
+h3 {
+	font-family: "Courier New";
+	background-color: white;
+	color: black;
+}
+
+p {
+	background-color: white;
+	color: gray;	
+}
+
+div {
+	background-color: gray;
+	width: 250px;
+	height: 100px;
+	padding: 10px;
+	margin: 30px;
+
+	/* Play with the properties below. */
+	
+	display: block;
+	/*display: inline;*/
+	/*display: inline-block;*/
+}

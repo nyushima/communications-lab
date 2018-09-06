@@ -1,0 +1,16 @@
+body {
+	background-color: #330066;
+	color: gray;
+	font-family: "Courier New", "Times New Roman";
+	font-size: 18px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+h3 {
+	color: white;
+	font-family: "Helvetica", "Arial";
+	font-size: 40px;
+	font-weight: bold;
+	font-style: normal;
+}

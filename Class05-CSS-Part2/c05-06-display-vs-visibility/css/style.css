@@ -1,0 +1,31 @@
+body {
+	font-family: "Helvetica";
+	background-color: lightgray;
+}
+
+h3 {
+	font-family: "Courier New";
+	background-color: white;
+	color: black;
+}
+
+p {
+	background-color: white;
+	color: gray;	
+}
+
+div {
+	background-color: gray;
+	width: 250px;
+	height: 200px;
+	padding: 10px;
+	margin: 30px;
+}
+
+.display-div {
+	/*display: none;*/
+}
+
+.visibility-div {
+	visibility: hidden;
+}

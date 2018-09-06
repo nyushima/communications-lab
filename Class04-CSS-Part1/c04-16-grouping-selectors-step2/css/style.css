@@ -1,0 +1,33 @@
+body {
+	font-family: "Helvetica", "Arial";
+}
+
+
+/* grouped selectors*/
+h1, h3, p {
+	text-align: center;
+}
+
+
+h1 {
+	color: darkblue;
+}
+
+h3 {
+	color: purple;
+}
+
+p {
+	color: gray;
+	font-size: 18px;
+}
+
+span {
+	color: blue;
+	font-size: 24px;
+}
+
+.monospaced-font {
+	font-family: "Courier New";
+	color: black;
+}

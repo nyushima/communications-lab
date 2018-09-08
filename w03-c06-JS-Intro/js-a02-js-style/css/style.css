@@ -1,0 +1,28 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+p {
+  font-family: Helvetica, Arial;
+}
+.box {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 300px;
+  height: 350px;
+  background-color: lightgray;
+}
+
+.box-title {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 15px;
+}
+
+.box-info {
+  color: gray;
+  margin: 0 15px;
+}

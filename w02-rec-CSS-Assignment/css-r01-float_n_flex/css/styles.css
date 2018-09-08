@@ -1,0 +1,29 @@
+/**
+
+Communications Lab - Fall 2018 | IMA | NYU Shanghai
+
+_____
+Steps
+
+1: Add a different background color to each div so that you can see the area of the div more clearly.
+2: Take out all invisible default margins first.
+3: Adjust the width and height of the larger divs first.
+4: Then, fine-tune the small divs' properties. (width, height, margin, etc.)
+5: Play with the layout, changing flex containers' properties.
+6: Make a final decision with the heights of the divs.
+7: When you are happy with the layout, remove the background randomly given.
+
+_____
+Properties for the flex container
+
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content
+
+Visit the website below and try the properties and values.
+https://www.w3schools.com/css/css3_flexbox.asp
+
+**/

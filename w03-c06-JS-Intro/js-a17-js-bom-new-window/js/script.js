@@ -14,9 +14,9 @@ name - The name of the window (Note: the name does not specify the title of the 
 */
 
 
-function changeContent() {
+function openNewWindow() {
 
   // window.open(URL, name, specs);
-  window.open("http://ima.nyu.sh/communications-lab/", "_blank", "width=600,  height=800");
+  window.open("http://ima.nyu.sh/communications-lab/", "_blank", "width=600,height=800");
 
 }

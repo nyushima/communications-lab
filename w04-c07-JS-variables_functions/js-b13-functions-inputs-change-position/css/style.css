@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+
+#box {
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  width: 200px;
+  height: 220px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #000;
+}
+
+#title1 {
+  color: gray;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#subtitle1 {
+  color: white;
+  font-size: 16px;
+}

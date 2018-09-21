@@ -17,7 +17,7 @@ function updatePosition() {
 
 function movePosition( x, y ) {
   xPos = xPos + x;  // xPos += x;
-  yPos = yPos + y;  // xPos += x;
+  yPos = yPos + y;  // yPos += y;
 
   myBox.style.left = xPos + "px";
   myBox.style.top = yPos + "px";

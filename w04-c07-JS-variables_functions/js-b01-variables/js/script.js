@@ -29,7 +29,7 @@ var scaling = 2.0;
 
 // 'string' variables in other languages
 var greeting = "Hello!";
-var greetingEn = 'Hello!'; // Both way are the same!
+var greetingEn = 'Hello!'; // Both ways are the same!
 var greetingCn = 'Ni hao!';
 var name = "Matt";
 var nickname = "fatbits";

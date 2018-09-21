@@ -1,4 +1,4 @@
-/* when adjust the color value */
+/* when adjust color value */
 
 // red-ish color
 var r = 200;

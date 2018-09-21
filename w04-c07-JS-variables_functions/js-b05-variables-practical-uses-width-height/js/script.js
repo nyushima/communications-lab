@@ -1,4 +1,4 @@
-/* when changing the width and height */
+/* when changing width and height */
 
 var w = 200;
 var h = 220;

@@ -1,0 +1,12 @@
+#dragger {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: Helvetica;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

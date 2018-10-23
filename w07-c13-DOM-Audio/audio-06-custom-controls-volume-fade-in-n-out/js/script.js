@@ -18,22 +18,28 @@ fadeInBtn.addEventListener("click", fadeIn);  // ***
 fadeOutBtn.addEventListener("click", fadeOut);  // ***
 
 var volume = 1.0;
-var intervalFadeIn, intervalFadeOut;
+var fadeEffect;
 var intervalTime = 100; // 0.1 sec
 
 function fadeIn() {
-  intervalFadeIn = setInterval( volumeUp, intervalTime );
+  // clear the previous effect first
+  clearInterval(fadeEffect);
+  // and apply a new effect
+  fadeEffect = setInterval( volumeUp, intervalTime );
 }
 
 function fadeOut() {
-  intervalFadeOut = setInterval( volumeDown, intervalTime );
+  // clear the previous effect first
+  clearInterval(fadeEffect);
+  // and apply a new effect
+  fadeEffect = setInterval( volumeDown, intervalTime );
 }
 
 function volumeUp() {
   volume += 0.05;
   if (volume > 1.0) {
     volume = 1.0;
-    clearInterval(intervalFadeIn);  // ***
+    clearInterval(fadeEffect);  // ***
   }
   player.volume = volume;
   updateMessage();
@@ -43,7 +49,7 @@ function volumeDown() {
   volume -= 0.05;
   if (volume < 0.0) {
     volume = 0.0;
-    clearInterval(intervalFadeOut);  // ***
+    clearInterval(fadeEffect);  // ***
   }
   player.volume = volume;
   updateMessage();

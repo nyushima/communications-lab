@@ -23,7 +23,6 @@ function volumeUp() {
     volume = 1.0;
   }
   player.volume = volume;
-
   updateMessage();
 }
 
@@ -33,26 +32,22 @@ function volumeDown() {
     volume = 0.0;
   }
   player.volume = volume;
-
   updateMessage();
 }
 
 function playAudio() {
   player.play();
-
   updateMessage();
 }
 
 function pauseAudio() {
   player.pause();
-
   updateMessage();
 }
 
 function stopAudio() {
   player.currentTime = 0;
   player.pause();
-
   updateMessage();
 }
 

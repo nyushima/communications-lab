@@ -9,6 +9,7 @@ startBtn.addEventListener("click", startPlaying);
 
 function startPlaying() {
   console.log("Playing video/bolt.mp4");
+  player.style.display = "block";
   startBtn.style.display = "none";
   player.play();
 }

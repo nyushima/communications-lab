@@ -6,25 +6,25 @@ var pauseBtn = document.getElementById("pauseBtn");
 var stopBtn = document.getElementById("stopBtn");
 var randomBtn = document.getElementById("randomBtn");  // ***
 
-playBtn.addEventListener("click", playAudio);
-pauseBtn.addEventListener("click", pauseAudio);
-stopBtn.addEventListener("click", stopAudio);
+playBtn.addEventListener("click", playVideo);
+pauseBtn.addEventListener("click", pauseVideo);
+stopBtn.addEventListener("click", stopVideo);
 randomBtn.addEventListener("click", changeRandomly);  // ***
 
 
-function playAudio() {
+function playVideo() {
   player.play();
 
   updateMessage();
 }
 
-function pauseAudio() {
+function pauseVideo() {
   player.pause();
 
   updateMessage();
 }
 
-function stopAudio() {
+function stopVideo() {
   player.currentTime = 0;
   player.volume = 1.0;
   player.playbackRate = 1.0;
@@ -35,7 +35,7 @@ function stopAudio() {
 
 function changeRandomly() {
   // jump to a random position
-  player.currentTime = Math.random() * player.duration;  // range from 0.0 to the duration of the audio file
+  player.currentTime = Math.random() * player.duration;  // range from 0.0 to the duration of the video file
 
   // change volume randomly
   player.volume = Math.random();  // range: 0.0 - 1.0 (0 - 100%)

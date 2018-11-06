@@ -4,19 +4,19 @@ var playBtn = document.getElementById("playBtn");
 var pauseBtn = document.getElementById("pauseBtn");
 var stopBtn = document.getElementById("stopBtn");
 
-playBtn.addEventListener("click", playAudio);
-pauseBtn.addEventListener("click", pauseAudio);
-stopBtn.addEventListener("click", stopAudio);
+playBtn.addEventListener("click", playVideo);
+pauseBtn.addEventListener("click", pauseVideo);
+stopBtn.addEventListener("click", stopVideo);
 
-function playAudio() {
+function playVideo() {
   player.play();
 }
 
-function pauseAudio() {
+function pauseVideo() {
   player.pause();
 }
 
-function stopAudio() {
+function stopVideo() {
   player.currentTime = 0;
   player.pause();
 }

@@ -18,8 +18,8 @@ player.addEventListener("timeupdate", playerProgressed);
 // buttons
 var startBtn = document.getElementById("startBtn");
 var stopBtn = document.getElementById("stopBtn");
-startBtn.addEventListener("click", playAudio);
-pauseBtn.addEventListener("click", pauseAudio);
+startBtn.addEventListener("click", playVideo);
+pauseBtn.addEventListener("click", pauseVideo);
 
 
 // player event + image animation
@@ -33,10 +33,10 @@ function playerProgressed(e) {
 
 
 // buttons' functions
-function playAudio() {
+function playVideo() {
   player.play();
 }
 
-function pauseAudio() {
+function pauseVideo() {
   player.pause();
 }

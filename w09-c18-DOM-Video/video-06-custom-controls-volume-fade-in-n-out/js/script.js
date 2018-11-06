@@ -9,9 +9,9 @@ var volumeDownBtn = document.getElementById("volumeDownBtn");
 var fadeInBtn = document.getElementById("fadeInBtn");  // ***
 var fadeOutBtn = document.getElementById("fadeOutBtn");  // ***
 
-playBtn.addEventListener("click", playAudio);
-pauseBtn.addEventListener("click", pauseAudio);
-stopBtn.addEventListener("click", stopAudio);
+playBtn.addEventListener("click", playVideo);
+pauseBtn.addEventListener("click", pauseVideo);
+stopBtn.addEventListener("click", stopVideo);
 volumeUpBtn.addEventListener("click", volumeUp);
 volumeDownBtn.addEventListener("click", volumeDown);
 fadeInBtn.addEventListener("click", fadeIn);  // ***
@@ -55,17 +55,17 @@ function volumeDown() {
   updateMessage();
 }
 
-function playAudio() {
+function playVideo() {
   player.play();
   updateMessage();
 }
 
-function pauseAudio() {
+function pauseVideo() {
   player.pause();
   updateMessage();
 }
 
-function stopAudio() {
+function stopVideo() {
   player.currentTime = 0;
   player.pause();
   updateMessage();

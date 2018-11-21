@@ -1,30 +1,27 @@
-var circleColor = "red";
-var circleSize = 150;
+var bgSlider = document.getElementById("background");
+var fgSlider = document.getElementById("foreground");
 
-function turnRed() {
-  circleColor = "red";
+bgSlider.addEventListener("input", changeBackground);
+fgSlider.addEventListener("input", changeForeground);
+
+var backgroundHue = 0;
+var foregroundHue = 0;
+
+function changeBackground(e) {
+  backgroundHue = e.target.value;
 }
 
-function turnGreen() {
-  circleColor = "green";
-}
-
-function growCircle() {
-  circleSize += 10;
+function changeForeground(e) {
+  foregroundHue = e.target.value;
 }
 
 function setup() {
   createCanvas(500, 500);
+  colorMode(HSL);
 }
 
 function draw() {
-  background(240);
-
-  if (circleColor === "red") {
-    fill(255, 0, 0);
-  } else {
-    fill(0, 255, 0);
-  }
-
-  ellipse(width / 2, height / 2, circleSize, circleSize);
+  background(backgroundHue, 100, 50);
+  fill(foregroundHue, 100, 50);
+  ellipse(width / 2, height / 2, 300, 300);
 }

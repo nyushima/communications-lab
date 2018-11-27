@@ -1,5 +1,3 @@
-var prevX, prevY;
-
 function setup() {
   createCanvas(500, 600);
   background(0);
@@ -15,5 +13,5 @@ function draw() {
   var y2 = random(height);
 
   stroke(random(255), random(255), random(255), random(255));
-  line(x1, x1, x2, y2);
+  line(x1, y1, x2, y2);
 }

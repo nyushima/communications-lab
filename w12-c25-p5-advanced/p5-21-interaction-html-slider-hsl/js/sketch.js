@@ -17,7 +17,7 @@ function changeForeground(e) {
 
 function setup() {
   createCanvas(500, 500);
-  colorMode(HSL);
+  colorMode(HSL); // ***
 }
 
 function draw() {

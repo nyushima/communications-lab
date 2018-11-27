@@ -10,9 +10,16 @@ function setup() {
 
 
 function draw() {
+  background(0); // clear the previous frame
+
   fill(255,0,0);
   ellipse(width/2, height/2, frameCount, frameCount);
   // width, height and frameCount are environment variables fo p5.
 
-  console.log(frameCount);
+
+  // you can display text(String) by using text() function.
+  // text( "Hello!", x, y );
+  fill(255);
+  text( frameRate(), 10, 20 ); // frameRate() returns how many frames are drawn per secound. 
+  text( frameCount, 10, 40 );
 }
